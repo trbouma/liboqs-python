@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
     secret_key = signer.export_secret_key()
 
-    content = "This is a quantum safe event I hope. to be or not to be."
+    content = "quantum event again"
     tags = ["t", "quantum_safe"]
     pq_event = PQEvent( pub_key=signer_public_key_hex,
                        content=content,
